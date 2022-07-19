@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 10px; */
+    background-image: linear-gradient(to top right, blue, hotpink);
+}
+
+.logo {
+    /* background-color: #fff; */
+    width: 10%;
+    height: 80%;
+    margin-left: 30px;
+    /* padding: 5px; */
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-item {
+    width: 80%;
+    /* margin-left: 30px; */
+    padding-right: 20px;
+    /* background-color: #fff; */
+}
+
+nav ul {
+    /* background-color: red; */
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul li:hover {
+    background-color: rgb(77, 126, 160);
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.main {
+    height: 427px;
+    width: 100%;
+    background-image: url('./image/hospital.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0%;
+    opacity: .8;
+    padding-top: 100px;
+}
+
+.M_cont {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    background: black;
+    opacity: .8;
+    width: 80%;
+    margin: auto;
+    border-radius: 0px 30px 0px 30px;
+}
+
+.M_cont h2 {
+    margin-bottom: 20px;
+}
+
+.M_cont h2::after {
+    content: " Manegment System";
+    color: rgb(142, 11, 11);
+    margin-bottom: 20px;
+}
+
+.M_cont p {
+    color: teal;
+    text-transform: capitalize;
+}
+
+.footer {
+    height: 100px;
+    border-bottom: 10px solid saddlebrown;
+    padding-top: 100px;
+    background-image: linear-gradient(to top right, blue, hotpink);
+}
+
+.top_footer {
+    height: 80px;
+    color: white;
+}
+
+.top_footer h2 {
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-bottom: 10px;
+    /* text-decoration: underline; */
+    /* font-size: 35px; */
+}
+
+.font-awesome {
+    text-align: center;
+    font-size: 20px;
+}
+
+.font-awesome a {
+    color: rgb(38, 38, 105);
+}
+
+.font-awesome i {
+    margin: 10px;
+}
+
+.font-awesome a:last-child {
+    color: brown;
+}
+
+.btn_footer {
+    border-top: 2px dotted black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+small::after {
+    content: "Monia Bilashi";
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
